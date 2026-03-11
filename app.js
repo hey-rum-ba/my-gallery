@@ -2,7 +2,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // REPLACE THESE with the exact same details from admin.js
 const supabaseUrl = 'https://rulnlbbuenrmhngwmbux.supabase.co';
-const supabaseKey = 'sb_publishable_dYnmqmmTBSbHG9YV48BOGw_gzEeTg3f';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1bG5sYmJ1ZW5ybWhuZ3dtYnV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMyMTQ3OTUsImV4cCI6MjA4ODc5MDc5NX0.BmZExsmRA7cPPZpm-GKH-OluE1dmLSZS3OITMioPir0';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const galleryContainer = document.getElementById('gallery');
@@ -35,4 +35,5 @@ async function loadGallery() {
 
 
 loadGallery();
+
 
